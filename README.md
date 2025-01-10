@@ -23,7 +23,7 @@ The Rock Paper Scissor game is a simple web-based game that allows users to play
 ## Installation
 
 1. Clone the repository or download the project files.
-2. Open the index.html file in your web browser to start playing the game.
+2. Open the \`index.html\` file in your web browser to start playing the game.
 
 ## File Structure
 
