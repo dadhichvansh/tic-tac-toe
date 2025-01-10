@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: "Baloo Bhai 2", sans-serif;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+h1 {
+    background-color: #333;
+    color: whitesmoke;
+    height: 5rem;
+    line-height: 5rem;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin: 5rem 0 3rem 0;
+}
+
+.choice {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center center;
+    transition-property: border;
+    transition-duration: 150ms;
+    transition-timing-function: ease-in-out;
+
+    &:hover {
+        border: 0.5rem solid #333;
+        cursor: pointer;
+    }
+}
+
+.score-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    gap: 5rem;
+    font-size: 2rem;
+    max-width: 50vw;
+}
+
+#user-score,
+#comp-score,
+#draw-score {
+    font-size: 4rem;
+}
+
+.msg-container {
+    margin-top: 3rem;
+}
+
+#msg {
+    background-color: #333;
+    color: whitesmoke;
+    font-size: 2rem;
+    display: inline;
+    padding: 1rem;
+    border-radius: 1rem;
+}
